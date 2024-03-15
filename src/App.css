@@ -1,0 +1,8 @@
+.name-Wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  background-color: blue;
+  color: white;
+}
