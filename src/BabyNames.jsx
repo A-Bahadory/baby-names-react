@@ -8,8 +8,10 @@ function BabyNames() {
 
   return (
     <>
-      {sortedNamesData.map((item, index) => (
-        <div key={index}>{item.name}</div>
+      {sortedNamesData.map((item) => (
+        <div className="name-wrapper" key={item}>
+          {item.name}
+        </div>
       ))}
     </>
   );

@@ -1,8 +1,7 @@
-.name-Wrapper {
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-  width: auto;
+.name-wrapper {
   background-color: blue;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
   color: white;
 }
